@@ -1,0 +1,62 @@
+.faixa-topo, .faixa-topo a{
+	background-color: #0067b5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #FFF;
+}
+
+.content{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+nav{
+	margin-top: 8%;
+}
+
+.navbar-default{
+	background-color: #FFF;
+	border-color: #FFF;
+	text-transform: uppercase;
+}
+
+.active-link-menu{
+	color: #0067b5 !important;
+	font-weight: bold;
+}
+
+.banner{
+	margin-bottom: 20px;
+}
+
+.title-page{
+	text-transform: uppercase;
+	border-bottom: 2px solid #CCC;
+	font-weight: bold;
+}
+
+.icon-conheca-clube{
+	max-width: 40%;
+	margin: 0 auto;
+}
+
+.bloco-index{
+	font-size: 90%;
+	border-bottom: 5px solid #0067b5;
+	margin-bottom: 20px;
+	min-height: 280px;
+}
+
+.img-bloco-index{
+	height: 150px;
+}
+
+.img-bloco-index img{
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	margin: auto;
+	position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
