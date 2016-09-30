@@ -1,4 +1,4 @@
-<?php $urlBase = "http://localhost/ccfd/"; ?>
+<?php $urlBase = "http://localhost/CCFD/"; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
