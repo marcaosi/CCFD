@@ -169,6 +169,22 @@
     	</div>
     </div>
 
+    <div class="container-fluid">
+        <div class="row content banner-rodape">
+            <div class="col-xs-12">
+                <img src="<?=$urlBase ?>img/BannerRod.png" alt="Banner Rodapé" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="row content">
+            <div class="col-xs-4">
+                <img src="<?=$urlBase ?>img/Logo-Footer.png" alt="Logo Rodapé" class="img-responsive">
+            </div>
+        </div>
+    </footer>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
