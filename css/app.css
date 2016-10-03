@@ -49,6 +49,10 @@ nav{
 	transition: background-color 1.5s;
 }
 
+.bloco-index-center{
+	margin-left: 12.5%;
+}
+
 .bloco-index:hover{
 	text-decoration: none;
 	color: #FFF;
@@ -84,4 +88,15 @@ nav{
 footer{
 	background-color: #48a5ae;
 	color: #FFF;
+}
+
+.dropdown-menu li a{
+	text-transform: none;
+}
+
+@media screen and (max-width: 768px) {
+  .bloco-index-center{
+  	margin: 0;
+  	margin-bottom: 20px;
+  }
 }

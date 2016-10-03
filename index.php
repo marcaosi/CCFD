@@ -34,7 +34,7 @@
     <div class="container-fluid">
     	<div class="row content">
     		<div class="col-xs-12 col-sm-4">
-    			<img class="img-responsive" src="<?= $urlBase ?>img/Logo.png" alt="Logo Menu" />
+    			<a href="<?=$urlBase ?>"><img class="img-responsive" src="<?= $urlBase ?>img/Logo.png" alt="Logo Menu" /></a>
     		</div>
     		<div class="col-xs-12 col-sm-8">
     			<nav class="navbar navbar-default">
@@ -57,24 +57,24 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">O Clube <span class="caret"></span></a>
                           <ul class="dropdown-menu">
                             <li><a href="#">Diretoria</a></li>
-                            <li><a href="#">Estatuto</a></li>
+                            <li><a target="_blank" href="<?=$urlBase ?>docs/Estatuto.pdf">Estatuto</a></li>
                             <li><a href="#">História</a></li>
-                            <li><a href="#">Código Disciplinar</a></li>
+                            <li><a target="_blank" href="<?=$urlBase ?>docs/CodigoDisciplinar.pdf">Código Disciplinar</a></li>
                             <li><a href="#">Diretrizes</a></li>
                           </ul>
                         </li>
 				        <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Estrutura <span class="caret"></span></a>
                           <ul class="dropdown-menu">
-                            <li><a href="#">Academia</a></li>
-                            <li><a href="#">Playground</a></li>
-                            <li><a href="#">Campos de Futebos</a></li>
-                            <li><a href="#">Churrasqueria</a></li>
-                            <li><a href="#">Ginásio</a></li>
-                            <li><a href="#">Parque Aquático</a></li>
-                            <li><a href="#">Salão Social</a></li>
-                            <li><a href="#">Sauna</a></li>
-                            <li><a href="#">Vestiários</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/academia">Academia</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/playground">Playground</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/campos">Campos de Futebos</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/churrasqueiras">Churrasqueria</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/ginasio">Ginásio</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/parqueAquatico">Parque Aquático</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/salaoSocial">Salão Social</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/sauna">Sauna</a></li>
+                            <li><a href="<?=$urlBase ?>estrutura/vestiarios">Vestiários</a></li>
                           </ul>
                         </li>
                         <li class="dropdown">
@@ -131,7 +131,7 @@
     		</div>
     	</div>
     	<div class="row content">
-    		<a href="#" class="col-xs-3 bloco-index">
+    		<a href="<?=$urlBase ?>estrutura/academia" class="col-xs-12 col-sm-3 bloco-index">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/academia.png" alt="Academia">
     			</p>
@@ -142,7 +142,7 @@
     				Bem-estar e qualidade de vida. A academia prórpia do clube é o local para quem quer cuidar do corpo e da mente. Conheça o espaço.
     			</p>
     		</a>
-    		<a href="#" class="col-xs-3 bloco-index" style="margin-left: 12.5%;">
+    		<a href="<?=$urlBase ?>estrutura/salaoSocial" class="col-xs-12 col-sm-3 bloco-index bloco-index-center">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/festa.png" alt="Salão Social">
     			</p>
@@ -153,7 +153,7 @@
     				Torne seu evento inesquecível. O salão social já faz parte da tradição de Pouso Alegre e pode marcar seus eventos
     			</p>
     		</a>
-    		<a href="#" class="col-xs-3 bloco-index pull-right">
+    		<a href="<?=$urlBase ?>estrutura/parqueAquatico" class="col-xs-12 col-sm-3 bloco-index pull-right">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/nadar.png" alt="Parque Aquático">
     			</p>
@@ -166,7 +166,7 @@
     		</a>
     	</div>
     	<div class="row content">
-    		<a href="#" class="col-xs-3 bloco-index">
+    		<a href="<?=$urlBase ?>estrutura/quadra" class="col-xs-12 col-sm-3 bloco-index">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/quadra.png" alt="Esportes">
     			</p>
@@ -177,7 +177,7 @@
     				O esporte estimula o convívio social e melhora a qualidade de vida das pessoas. Conheça a programação para crianças e adultos e venha participar das atividades.
     			</p>
     		</a>
-    		<a href="#" class="col-xs-3 bloco-index" style="margin-left: 12.5%;">
+    		<a href="<?=$urlBase ?>estrutura/sauna" class="col-xs-12 col-sm-3 bloco-index bloco-index-center">
     			<div class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/sauna.png" alt="Sauna">
     			</div>
@@ -188,7 +188,7 @@
     				Você sabia que o hábito de frequentar a sauna promove o relaxamento do corpo aumentando a sensação de bem-estar?
     			</p>
     		</a>
-    		<a href="#" class="col-xs-3 bloco-index pull-right">
+    		<a href="<?=$urlBase ?>estrutura/churrasqueiras" class="col-xs-12 col-sm-3 bloco-index pull-right">
     			<div class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/churrasco.png" alt="Estrutura">
     			</div>
@@ -212,14 +212,14 @@
 
     <footer class="container-fluid">
         <div class="row content">
-            <div class="col-xs-4">
-                <img src="<?=$urlBase ?>img/Logo-Footer.png" alt="Logo Rodapé" class="img-responsive">
+            <div class="col-xs-12 col-sm-4 text-center">
+                <a href="<?=$urlBase ?>"><img src="<?=$urBase ?>img/Logo-Footer.png" alt="Logo Rodapé" class="img-responsive" style="margin:0 auto;"></a>
             </div>
-            <div class="col-xs-8 text-right">
-                <p>
+            <div class="col-sm-8 text-right hidden-xs">
+                <address>
                     <br>
                     Rodovia Juscelino Kubitscheck de Oliveira, s/n - Ipiranga, Pouso Alegre/MG
-                </p>
+                </address>
                 <p>
                     35 3422.5020
                 </p>
