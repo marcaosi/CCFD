@@ -45,6 +45,18 @@ nav{
 	border-bottom: 5px solid #0067b5;
 	margin-bottom: 20px;
 	min-height: 280px;
+	color: #59595b;
+	transition: background-color 1.5s;
+}
+
+.bloco-index:hover{
+	text-decoration: none;
+	color: #FFF;
+	background-color: #1356ab;
+}
+
+.bloco-index:visited{
+	text-decoration: none;
 }
 
 .img-bloco-index{
@@ -71,4 +83,5 @@ nav{
 
 footer{
 	background-color: #48a5ae;
+	color: #FFF;
 }

@@ -53,9 +53,42 @@
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
 				        <li><a href="#" class="active-link-menu">Home</a></li>
-				        <li><a href="#">O clube</a></li>
-				        <li><a href="#">Estrutura</a></li>
-				        <li><a href="#">Atividades</a></li>
+				        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">O Clube <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Diretoria</a></li>
+                            <li><a href="#">Estatuto</a></li>
+                            <li><a href="#">História</a></li>
+                            <li><a href="#">Código Disciplinar</a></li>
+                            <li><a href="#">Diretrizes</a></li>
+                          </ul>
+                        </li>
+				        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Estrutura <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Academia</a></li>
+                            <li><a href="#">Playground</a></li>
+                            <li><a href="#">Campos de Futebos</a></li>
+                            <li><a href="#">Churrasqueria</a></li>
+                            <li><a href="#">Ginásio</a></li>
+                            <li><a href="#">Parque Aquático</a></li>
+                            <li><a href="#">Salão Social</a></li>
+                            <li><a href="#">Sauna</a></li>
+                            <li><a href="#">Vestiários</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Atividades <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Bocha</a></li>
+                            <li><a href="#">Futebol</a></li>
+                            <li><a href="#">Tênis</a></li>
+                            <li><a href="#">Muay Thai</a></li>
+                            <li><a href="#">Pilates</a></li>
+                            <li><a href="#">Judô</a></li>
+                            <li><a href="#">Zumba</a></li>
+                          </ul>
+                        </li>
 				        <li><a href="#">Eventos</a></li>
 				        <li><a href="#">Fotos</a></li>
 				        <li><a href="#">Contato</a></li>
@@ -98,7 +131,7 @@
     		</div>
     	</div>
     	<div class="row content">
-    		<div class="col-xs-3 bloco-index">
+    		<a href="#" class="col-xs-3 bloco-index">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/academia.png" alt="Academia">
     			</p>
@@ -108,8 +141,8 @@
     			<p>
     				Bem-estar e qualidade de vida. A academia prórpia do clube é o local para quem quer cuidar do corpo e da mente. Conheça o espaço.
     			</p>
-    		</div>
-    		<div class="col-xs-3 bloco-index" style="margin-left: 12.5%;">
+    		</a>
+    		<a href="#" class="col-xs-3 bloco-index" style="margin-left: 12.5%;">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/festa.png" alt="Salão Social">
     			</p>
@@ -119,8 +152,8 @@
     			<p>
     				Torne seu evento inesquecível. O salão social já faz parte da tradição de Pouso Alegre e pode marcar seus eventos
     			</p>
-    		</div>
-    		<div class="col-xs-3 bloco-index pull-right">
+    		</a>
+    		<a href="#" class="col-xs-3 bloco-index pull-right">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/nadar.png" alt="Parque Aquático">
     			</p>
@@ -130,10 +163,10 @@
     			<p>
     				Espaço para crianças e adultos e muita segurança para curtir os dias de sol e aproveitar o melhor do verão.
     			</p>
-    		</div>
+    		</a>
     	</div>
     	<div class="row content">
-    		<div class="col-xs-3 bloco-index">
+    		<a href="#" class="col-xs-3 bloco-index">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/quadra.png" alt="Esportes">
     			</p>
@@ -143,8 +176,8 @@
     			<p>
     				O esporte estimula o convívio social e melhora a qualidade de vida das pessoas. Conheça a programação para crianças e adultos e venha participar das atividades.
     			</p>
-    		</div>
-    		<div class="col-xs-3 bloco-index" style="margin-left: 12.5%;">
+    		</a>
+    		<a href="#" class="col-xs-3 bloco-index" style="margin-left: 12.5%;">
     			<div class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/sauna.png" alt="Sauna">
     			</div>
@@ -154,8 +187,8 @@
     			<p>
     				Você sabia que o hábito de frequentar a sauna promove o relaxamento do corpo aumentando a sensação de bem-estar?
     			</p>
-    		</div>
-    		<div class="col-xs-3 bloco-index pull-right">
+    		</a>
+    		<a href="#" class="col-xs-3 bloco-index pull-right">
     			<div class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/churrasco.png" alt="Estrutura">
     			</div>
@@ -165,7 +198,7 @@
     			<p>
     				Contato com a natureza e tranquilidade. Áreas esprotivas, playground, churrasqueiras, área para jogos e pequeno pesqueiro esportivo são algumas atrações do CCFD.
     			</p>
-    		</div>
+    		</a>
     	</div>
     </div>
 
@@ -181,6 +214,18 @@
         <div class="row content">
             <div class="col-xs-4">
                 <img src="<?=$urlBase ?>img/Logo-Footer.png" alt="Logo Rodapé" class="img-responsive">
+            </div>
+            <div class="col-xs-8 text-right">
+                <p>
+                    <br>
+                    Rodovia Juscelino Kubitscheck de Oliveira, s/n - Ipiranga, Pouso Alegre/MG
+                </p>
+                <p>
+                    35 3422.5020
+                </p>
+                <small>
+                    Copyright &copy; 2016 CCFD - CLUBE DE CAMPO FERNÃO DIAS - Todos os direitos reservados
+                </small>
             </div>
         </div>
     </footer>
