@@ -1,3 +1,6 @@
+*{
+	font-family: Calibri;
+}
 .faixa-topo, .faixa-topo a{
 	background-color: #0067b5;
 	padding-top: 5px;
@@ -94,9 +97,38 @@ footer{
 	text-transform: none;
 }
 
+.brand-menu{
+	float: left;
+	margin-top: 15px;
+	width: 75%;
+	color:#FFF;
+}
+
 @media screen and (max-width: 768px) {
   .bloco-index-center{
   	margin: 0;
   	margin-bottom: 20px;
+  }
+
+  .menu-xs, .navbar{
+  	background-color: #4ca5ad;
+  	margin-bottom: 0;
+  	border-color: #4ca5ad;
+  	margin-top: 0;
+  }
+
+  .nav li a{
+  	color:#FFF !important;
+  }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  	background-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar{
+  	background-color: #FFF;
+  }
+
+  .navbar-default .navbar-toggle{
+  	border-color: transparent;
   }
 }
