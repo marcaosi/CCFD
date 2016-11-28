@@ -104,6 +104,29 @@ footer{
 	color:#FFF;
 }
 
+.page-inside{
+	text-align: justify;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.title-page-inside{
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 6px;
+	margin-bottom: 40px;
+	color: #0067b5;
+}
+
+.text-focus-page{
+	font-weight: bold;
+}
+
+.img-page{
+	width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .bloco-index-center{
   	margin: 0;
