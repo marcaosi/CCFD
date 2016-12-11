@@ -4,6 +4,7 @@
 	<div class="row content">
 		<div class="col-xs-12 page-inside">
 			<h3 class="title-page-inside">Conheça o Clube de Campo Fernão Dias</h3>
+			<img class="img-responsive pull-center" src="<?= $urlBase; ?>img/historia.png" alt="História">
 			<p>O Clube de Campo Fernão Dias foi criado no dia 16 de maio de 1963. A iniciativa e o espírito empreendedor surgiu das mãos de Aldo Kalil Homse e mais 34 sócios fundadores. Com o passar do tempo, o grupo viu o sonho se tornar realidade.</p>
 
 			<p>Com quatro décadas de existência, o CCFD se consolida com um dos melhores clubes sociais do interior de Minas Gerais. Com infraestrutura de lazer e entretenimento, distribuídas em uma área que ultrapassa oito alqueires.</p>
