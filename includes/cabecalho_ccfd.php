@@ -64,6 +64,7 @@
                             <li><a target="_blank" href="<?=$urlBase ?>docs/Estatuto.pdf">Estatuto</a></li>
                             <li><a href="<?=$urlBase ?>menu/historia.php">História</a></li>
                             <li><a target="_blank" href="<?=$urlBase ?>docs/CodigoDisciplinar.pdf">Código Disciplinar</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=Uebe--0qcPo">Vídeo Institucional</a></li>
                           </ul>
                         </li>
 				        <li class="dropdown">
@@ -88,7 +89,7 @@
                         </li>
 				        <li><a href="#">Eventos</a></li>
 				        <li><a href="#">Fotos</a></li>
-				        <li><a href="#">Contato</a></li>
+				        <li><a href="<?=$urlBase?>menu/contato.php">Contato</a></li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->

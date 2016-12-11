@@ -13,7 +13,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 50px;">
 							<p>Futebol Adulto Society</p>
 						</td>
 						<td>
@@ -42,7 +42,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 60px;">
 							<p>Judô</p>
 						</td>
 						<td>
@@ -53,7 +53,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 30px;">
 							<p>Escolinha de Tênis</p>
 						</td>
 						<td>
@@ -62,7 +62,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 25px;">
 							<p>Aula de Natação</p>
 							<p>(Adulto e Infantil)</p>
 						</td>
@@ -83,7 +83,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 30px;">
 							<p>Muay Thai</p>
 						</td>
 						<td>
@@ -92,7 +92,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 45px;">
 							<p>Musculação</p>
 						</td>
 						<td>
@@ -102,7 +102,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 50px;">
 							<p>Pilates</p>
 						</td>
 						<td>
@@ -112,7 +112,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 30px;">
 							<p>Jump</p>
 						</td>
 						<td>
@@ -129,7 +129,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 45px;">
 							<p>Sauna Masculina</p>
 						</td>
 						<td>
@@ -139,7 +139,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 30px;">
 							<p>Sauna Feminina</p>
 						</td>
 						<td>
@@ -148,7 +148,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 80px;">
 							<p>Vôlei</p>
 						</td>
 						<td>
@@ -160,7 +160,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 25px;">
 							<p>Bocha</p>
 						</td>
 						<td>
@@ -169,7 +169,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 30px;">
 							<p>Zumba</p>
 						</td>
 						<td>
@@ -178,7 +178,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 30px;">
 							<p>Bilhar (maiores de 18 anos)</p>
 						</td>
 						<td>
@@ -187,7 +187,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 30px;">
 							<p>Hidroginástica</p>
 						</td>
 						<td>
@@ -196,7 +196,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="first-column">
+						<td class="first-column" style="padding-top: 25px;">
 							<p>3ª Idade Fitness</p>
 						</td>
 						<td>

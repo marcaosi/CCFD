@@ -49,12 +49,15 @@ nav{
 }
 
 .bloco-index{
-	font-size: 90%;
 	border-bottom: 5px solid #0067b5;
 	margin-bottom: 20px;
 	min-height: 325px;
 	color: #59595b;
 	transition: background-color 1.5s;
+}
+
+.bloco-index p{
+	font-size: 13px;
 }
 
 .bloco-index-center{
@@ -119,9 +122,11 @@ footer{
 	text-transform: uppercase;
 	font-weight: bold;
 	border-bottom: 1px solid #DDD;
-	padding-bottom: 6px;
+	padding-bottom: 10px;
+	padding-left: 20px;
 	margin-bottom: 40px;
 	color: #0067b5;
+	font-size: 20px;
 }
 
 .text-focus-page{
