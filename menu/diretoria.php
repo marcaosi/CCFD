@@ -2,7 +2,7 @@
 
 <div class="container-fluid">
 	<div class="row content">
-		<div class="col-xs-12 page-inside">
+		<div class="col-xs-10 col-xs-offset-1 page-inside">
 			<h3 class="title-page-inside">Diretoria</h3>
 
 			<div class="row">

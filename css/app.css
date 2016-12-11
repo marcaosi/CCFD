@@ -1,5 +1,6 @@
 *{
 	font-family: Calibri;
+	font-size: 14px;
 }
 .faixa-topo, .faixa-topo a{
 	background-color: #0067b5;
@@ -129,6 +130,17 @@ footer{
 
 .pull-center{
 	margin:  0 auto;
+}
+
+.first-column{
+	background-color: #00ccff;
+	color: #FFF;
+}
+
+.table-activity p{
+	font-size: 16px !important;
+	font-weight: bold;
+	text-align: center;
 }
 
 @media screen and (max-width: 768px) {

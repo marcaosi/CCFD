@@ -84,16 +84,7 @@
                           </ul>
                         </li>
                         <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Atividades <span class="caret"></span></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Bocha</a></li>
-                            <li><a href="#">Futebol</a></li>
-                            <li><a href="#">Tênis</a></li>
-                            <li><a href="#">Muay Thai</a></li>
-                            <li><a href="#">Pilates</a></li>
-                            <li><a href="#">Judô</a></li>
-                            <li><a href="#">Zumba</a></li>
-                          </ul>
+                          <a href="<?=$urlBase ?>menu/atividades.php">Atividades</a>
                         </li>
 				        <li><a href="#">Eventos</a></li>
 				        <li><a href="#">Fotos</a></li>
