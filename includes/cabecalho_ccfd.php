@@ -26,8 +26,8 @@
     	<div class="row content">
     		<div class="col-xs-12 text-right">
 				<small>Siga-nos nas redes sociais</small>
-				<a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-lg"></i></a>
-				<a href="http://www.youtube.com"><i class="fa fa-youtube-square fa-lg"></i></a>
+				<a target="_blank" href="http://www.facebook.com/fernaodiasoficial"><i class="fa fa-facebook-square fa-lg"></i></a>
+				<a target="_blank" href="http://www.youtube.com/channel/UCBt2itgUDsuR7AdwsbfCBjQ"><i class="fa fa-youtube-square fa-lg"></i></a>
     		</div>
     	</div>
     </div>
@@ -54,9 +54,9 @@
 				    </div>
 
 				    <!-- Collect the nav links, forms, and other content for toggling -->
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+				    <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-2">
 				      <ul class="nav navbar-nav">
-				        <li><a href="/" class="active-link-menu">Home</a></li>
+				        <li><a href="<?= $urlBase ?>" class="active-link-menu">Início</a></li>
 				        <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">O Clube <span class="caret"></span></a>
                           <ul class="dropdown-menu">

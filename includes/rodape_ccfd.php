@@ -3,7 +3,7 @@
     <footer class="container-fluid">
         <div class="row content">
             <div class="col-xs-12 col-sm-4 text-center">
-                <a href="<?=$urlBase ?>"><img src="<?=$urlBase ?>img/Logo-Footer.png" alt="Logo Rodapé" class="img-responsive" style="margin:0 auto;"></a>
+                <a href="<?=$urlBase ?>"><img src="<?=$urlBase ?>img/Logo-Footer.png" alt="Logo Rodapé" class="img-responsive pull-left" style="margin:0 auto;"></a>
             </div>
             <div class="col-sm-8 text-right hidden-xs">
                 <address>

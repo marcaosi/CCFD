@@ -5,9 +5,9 @@
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
 			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner" role="listbox">
+			  <div class="carousel-inner slideshow-index" role="listbox">
 			    <div class="item active">
-			      <img src="<?=$urlBase?>img/Banner.png" alt="Temporada de Verão">
+			      <img class="img-responsive" src="<?=$urlBase?>img/Banner.png" alt="Temporada de Verão">
 			    </div>
 			  </div>
 
@@ -35,9 +35,9 @@
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/academia.png" alt="Academia">
     			</p>
-    			<p>
+    			<h4>
     				Academia
-    			</p>
+    			</h4>
     			<p>
     				Bem-estar e qualidade de vida. A academia prórpia do clube é o local para quem quer cuidar do corpo e da mente. Conheça o espaço.
     			</p>
@@ -46,9 +46,9 @@
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/festa.png" alt="Salão Social">
     			</p>
-    			<p>
+    			<h4>
     				Salão Social
-    			</p>
+    			</h4>
     			<p>
     				Torne seu evento inesquecível. O salão social já faz parte da tradição de Pouso Alegre e pode marcar seus eventos
     			</p>
@@ -57,9 +57,9 @@
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/nadar.png" alt="Parque Aquático">
     			</p>
-    			<p>
+    			<h4>
     				Parque Aquático
-    			</p>
+    			</h4>
     			<p>
     				Espaço para crianças e adultos e muita segurança para curtir os dias de sol e aproveitar o melhor do verão.
     			</p>
@@ -70,9 +70,9 @@
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/quadra.png" alt="Esportes">
     			</p>
-    			<p>
+    			<h4>
     				Esportes
-    			</p>
+    			</h4>
     			<p>
     				O esporte estimula o convívio social e melhora a qualidade de vida das pessoas. Conheça a programação para crianças e adultos e venha participar das atividades.
     			</p>
@@ -81,9 +81,9 @@
     			<div class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/sauna.png" alt="Sauna">
     			</div>
-    			<p>
+    			<h4>
     				Sauna
-    			</p>
+    			</h4>
     			<p>
     				Você sabia que o hábito de frequentar a sauna promove o relaxamento do corpo aumentando a sensação de bem-estar?
     			</p>
@@ -92,9 +92,9 @@
     			<div class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/churrasco.png" alt="Estrutura">
     			</div>
-    			<p>
+    			<h4>
     				Estrutura
-    			</p>
+    			</h4>
     			<p>
     				Contato com a natureza e tranquilidade. Áreas esprotivas, playground, churrasqueiras, área para jogos e pequeno pesqueiro esportivo são algumas atrações do CCFD.
     			</p>

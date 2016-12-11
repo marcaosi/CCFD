@@ -1,7 +1,9 @@
 *{
-	font-family: Calibri;
+	font-family: Calibri, Helvetica;
 	font-size: 14px;
+	line-height: 24px;
 }
+
 .faixa-topo, .faixa-topo a{
 	background-color: #0067b5;
 	padding-top: 5px;
@@ -37,6 +39,8 @@ nav{
 	text-transform: uppercase;
 	border-bottom: 2px solid #CCC;
 	font-weight: bold;
+	padding-bottom: 10px;
+	padding-left: 15px;
 }
 
 .icon-conheca-clube{
@@ -48,7 +52,7 @@ nav{
 	font-size: 90%;
 	border-bottom: 5px solid #0067b5;
 	margin-bottom: 20px;
-	min-height: 280px;
+	min-height: 325px;
 	color: #59595b;
 	transition: background-color 1.5s;
 }
@@ -141,6 +145,14 @@ footer{
 	font-size: 16px !important;
 	font-weight: bold;
 	text-align: center;
+}
+
+.slideshow-index img{
+	margin: 0 auto;
+}
+
+.bloco-index h4{
+	font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
