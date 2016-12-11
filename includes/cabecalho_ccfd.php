@@ -56,7 +56,7 @@
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 				      <ul class="nav navbar-nav">
-				        <li><a href="#" class="active-link-menu">Home</a></li>
+				        <li><a href="/" class="active-link-menu">Home</a></li>
 				        <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">O Clube <span class="caret"></span></a>
                           <ul class="dropdown-menu">
@@ -71,8 +71,10 @@
                           <ul class="dropdown-menu">
                             <li><a href="<?=$urlBase ?>menu/estrutura/academia.php">Academia</a></li>
                             <li><a href="<?=$urlBase ?>menu/estrutura/playground.php">Playground</a></li>
-                            <li><a href="<?=$urlBase ?>menu/estrutura/campos.php">Campos de Futebos</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/campos.php">Campos de Futebol</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/ginasio.php">Ginásio</a></li>
                             <li><a href="<?=$urlBase ?>menu/estrutura/churrasqueiras.php">Churrasqueria</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/grutaEMirante.php">Gruta e Mirante</a></li>
                             <li><a href="<?=$urlBase ?>menu/estrutura/quadras.php">Quadras</a></li>
                             <li><a href="<?=$urlBase ?>menu/estrutura/lago.php">Lago</a></li>
                             <li><a href="<?=$urlBase ?>menu/estrutura/parqueAquatico.php">Parque Aquático</a></li>
