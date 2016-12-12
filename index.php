@@ -50,7 +50,7 @@
     				Salão Social
     			</h4>
     			<p>
-    				Torne seu evento inesquecível. O salão social já faz parte da tradição de Pouso Alegre e pode marcar seus eventos
+    				Torne seu evento inesquecível. O salão social já faz parte da tradição de Pouso Alegre e pode marcar seus eventos.
     			</p>
     		</a>
     		<a href="<?=$urlBase ?>estrutura/parqueAquatico" class="col-xs-12 col-sm-3 bloco-index pull-right">
@@ -96,7 +96,7 @@
     				Estrutura
     			</h4>
     			<p>
-    				Contato com a natureza e tranquilidade. Áreas esprotivas, playground, churrasqueiras, área para jogos e pequeno pesqueiro esportivo são algumas atrações do CCFD.
+    				Contato com a natureza e tranquilidade. Áreas esportivas, playground, churrasqueiras, área para jogos e pequeno pesqueiro esportivo são algumas atrações do CCFD.
     			</p>
     		</a>
     	</div>

@@ -117,46 +117,40 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="#" class="active-link-menu">Home</a></li>
+                <li><a href="<?= $urlBase ?>" class="active-link-menu">Início</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">O Clube <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Diretoria</a></li>
-                    <li><a target="_blank" href="<?=$urlBase ?>docs/Estatuto.pdf">Estatuto</a></li>
-                    <li><a href="<?=$urlBase ?>menu/historia">História</a></li>
-                    <li><a target="_blank" href="<?=$urlBase ?>docs/CodigoDisciplinar.pdf">Código Disciplinar</a></li>
-                    <li><a href="#">Diretrizes</a></li>
-                  </ul>
-                </li>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">O Clube <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="<?=$urlBase ?>menu/diretoria.php">Diretoria</a></li>
+                            <li><a target="_blank" href="<?=$urlBase ?>docs/Estatuto.pdf">Estatuto</a></li>
+                            <li><a href="<?=$urlBase ?>menu/historia.php">História</a></li>
+                            <li><a target="_blank" href="<?=$urlBase ?>docs/CodigoDisciplinar.pdf">Código Disciplinar</a></li>
+                            <li><a target="_blank" href="https://www.youtube.com/watch?v=Uebe--0qcPo">Vídeo Institucional</a></li>
+                          </ul>
+                        </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Estrutura <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="<?=$urlBase ?>estrutura/academia">Academia</a></li>
-                    <li><a href="<?=$urlBase ?>estrutura/playground">Playground</a></li>
-                    <li><a href="<?=$urlBase ?>estrutura/campos">Campos de Futebos</a></li>
-                    <li><a href="<?=$urlBase ?>estrutura/churrasqueiras">Churrasqueria</a></li>
-                    <li><a href="<?=$urlBase ?>estrutura/ginasio">Ginásio</a></li>
-                    <li><a href="<?=$urlBase ?>estrutura/parqueAquatico">Parque Aquático</a></li>
-                    <li><a href="<?=$urlBase ?>estrutura/salaoSocial">Salão Social</a></li>
-                    <li><a href="<?=$urlBase ?>estrutura/sauna">Sauna</a></li>
-                    <li><a href="<?=$urlBase ?>estrutura/vestiarios">Vestiários</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Atividades <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Bocha</a></li>
-                    <li><a href="#">Futebol</a></li>
-                    <li><a href="#">Tênis</a></li>
-                    <li><a href="#">Muay Thai</a></li>
-                    <li><a href="#">Pilates</a></li>
-                    <li><a href="#">Judô</a></li>
-                    <li><a href="#">Zumba</a></li>
-                  </ul>
-                </li>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Estrutura <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="<?=$urlBase ?>menu/estrutura/academia.php">Academia</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/playground.php">Playground</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/campos.php">Campos de Futebol</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/ginasio.php">Ginásio</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/churrasqueiras.php">Churrasqueria</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/grutaEMirante.php">Gruta e Mirante</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/quadras.php">Quadras</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/lago.php">Lago</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/parqueAquatico.php">Parque Aquático</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/salaoSocial.php">Salão Social</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/sauna.php">Sauna</a></li>
+                            <li><a href="<?=$urlBase ?>menu/estrutura/vestiarios.php">Vestiários</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="<?=$urlBase ?>menu/atividades.php">Atividades</a>
+                        </li>
                 <li><a href="#">Eventos</a></li>
-                <li><a href="#">Fotos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="<?=$urlBase?>menu/fotos.php">Fotos</a></li>
+                <li><a href="<?=$urlBase?>menu/contato.php">Contato</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
