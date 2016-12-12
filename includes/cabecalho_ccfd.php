@@ -88,7 +88,7 @@
                           <a href="<?=$urlBase ?>menu/atividades.php">Atividades</a>
                         </li>
 				        <li><a href="#">Eventos</a></li>
-				        <li><a href="#">Fotos</a></li>
+				        <li><a href="<?=$urlBase?>menu/fotos.php">Fotos</a></li>
 				        <li><a href="<?=$urlBase?>menu/contato.php">Contato</a></li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
