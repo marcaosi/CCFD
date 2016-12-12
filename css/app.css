@@ -152,6 +152,10 @@ footer{
 	text-align: center;
 }
 
+.logo-rodape{
+	float: left;
+}
+
 .slideshow-index img{
 	margin: 0 auto;
 }
@@ -186,5 +190,10 @@ footer{
 
   .navbar-default .navbar-toggle{
   	border-color: transparent;
+  }
+
+  .logo-rodape{
+  	float: none;
+  	margin: 0 auto;
   }
 }

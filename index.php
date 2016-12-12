@@ -105,7 +105,8 @@
     <div class="container-fluid">
         <div class="row content banner-rodape">
             <div class="col-xs-12">
-                <img src="<?=$urlBase ?>img/BannerRod.png" alt="Banner Rodapé" class="img-responsive">
+                <img src="<?=$urlBase ?>img/BannerRod.png" alt="Banner Rodapé" class="img-responsive hidden-xs">
+                <img src="<?=$urlBase ?>img/associarmobile.png" alt="Associe-se" class="img-responsive visible-xs pull-center">
             </div>
         </div>
     </div>
