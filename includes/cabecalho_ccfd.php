@@ -26,8 +26,8 @@
     	<div class="row content">
     		<div class="col-xs-12 text-right">
 				<small>Siga-nos nas redes sociais</small>
-				<a target="_blank" href="http://www.facebook.com/fernaodiasoficial"><i class="fa fa-facebook-square fa-lg"></i></a>
-				<a target="_blank" href="http://www.youtube.com/channel/UCBt2itgUDsuR7AdwsbfCBjQ"><i class="fa fa-youtube-square fa-lg"></i></a>
+				<a target="_blank" class="link-social" href="http://www.facebook.com/fernaodiasoficial"><i class="fa fa-facebook-square fa-lg"></i></a>
+				<a target="_blank" class="link-social" href="http://www.youtube.com/channel/UCBt2itgUDsuR7AdwsbfCBjQ"><i class="fa fa-youtube-square fa-lg"></i></a>
     		</div>
     	</div>
     </div>
