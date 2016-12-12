@@ -31,7 +31,7 @@
     		</div>
     	</div>
     	<div class="row content">
-    		<a href="<?=$urlBase ?>estrutura/academia" class="col-xs-12 col-sm-3 bloco-index">
+    		<a href="<?=$urlBase ?>menu/estrutura/academia.php" class="col-xs-12 col-sm-3 bloco-index">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/academia.png" alt="Academia">
     			</p>
@@ -42,7 +42,7 @@
     				Bem-estar e qualidade de vida. A academia prórpia do clube é o local para quem quer cuidar do corpo e da mente. Conheça o espaço.
     			</p>
     		</a>
-    		<a href="<?=$urlBase ?>estrutura/salaoSocial" class="col-xs-12 col-sm-3 bloco-index bloco-index-center">
+    		<a href="<?=$urlBase ?>menu/estrutura/salaoSocial.php" class="col-xs-12 col-sm-3 bloco-index bloco-index-center">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/festa.png" alt="Salão Social">
     			</p>
@@ -53,7 +53,7 @@
     				Torne seu evento inesquecível. O salão social já faz parte da tradição de Pouso Alegre e pode marcar seus eventos.
     			</p>
     		</a>
-    		<a href="<?=$urlBase ?>estrutura/parqueAquatico" class="col-xs-12 col-sm-3 bloco-index pull-right">
+    		<a href="<?=$urlBase ?>menu/estrutura/parqueAquatico.php" class="col-xs-12 col-sm-3 bloco-index pull-right">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/nadar.png" alt="Parque Aquático">
     			</p>
@@ -66,7 +66,7 @@
     		</a>
     	</div>
     	<div class="row content">
-    		<a href="<?=$urlBase ?>estrutura/quadra" class="col-xs-12 col-sm-3 bloco-index">
+    		<a href="<?=$urlBase ?>menu/estrutura/ginasio.php" class="col-xs-12 col-sm-3 bloco-index">
     			<p class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/quadra.png" alt="Esportes">
     			</p>
@@ -77,7 +77,7 @@
     				O esporte estimula o convívio social e melhora a qualidade de vida das pessoas. Conheça a programação para crianças e adultos e venha participar das atividades.
     			</p>
     		</a>
-    		<a href="<?=$urlBase ?>estrutura/sauna" class="col-xs-12 col-sm-3 bloco-index bloco-index-center">
+    		<a href="<?=$urlBase ?>menu/estrutura/sauna.php" class="col-xs-12 col-sm-3 bloco-index bloco-index-center">
     			<div class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/sauna.png" alt="Sauna">
     			</div>
@@ -88,7 +88,7 @@
     				Você sabia que o hábito de frequentar a sauna promove o relaxamento do corpo aumentando a sensação de bem-estar?
     			</p>
     		</a>
-    		<a href="<?=$urlBase ?>estrutura/churrasqueiras" class="col-xs-12 col-sm-3 bloco-index pull-right">
+    		<a href="<?=$urlBase ?>menu/estrutura/churrasqueiras.php" class="col-xs-12 col-sm-3 bloco-index pull-right">
     			<div class="img-bloco-index">
     				<img class="img-responsive icon-conheca-clube" src="<?=$urlBase ?>img/churrasco.png" alt="Estrutura">
     			</div>
