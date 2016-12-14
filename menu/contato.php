@@ -4,36 +4,48 @@
 	<div class="row content">
 		<div class="col-xs-10 col-xs-offset-1 page-inside">
 			<h3 class="title-page-inside">Contato</h3>
-			<form action="" method="post">
-				<div class="row">
-					<div class="col-xs-6 form-group">
-						<label for="nome">Nome:</label>
-						<input type="text" name="nome" id="nome" class="form-control">
+			<div class="row">
+			<div class="col-xs-7">
+				<form action="" method="post">
+					<div class="row">
+						<div class="col-xs-6 form-group">
+							<label for="nome">Nome:</label>
+							<input type="text" name="nome" id="nome" class="form-control">
+						</div>
 					</div>
+					<div class="row">
+						<div class="col-xs-6 form-group">
+							<label for="email">E-mail:</label>
+							<input type="text" name="email" id="email" class="form-control">
+						</div>
+					
+						<div class="col-xs-6 form-group">
+							<label for="telefone">Telefone:</label>
+							<input type="text" name="telefone" id="telefone" class="form-control">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 form-group">
+							<label for="mensagem">Mensagem:</label>
+							<textarea name="mensagem" id="mensagem" cols="30" rows="10" class="form-control"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 form-group">
+							<button type="submit" class="btn btn-default pull-right">Enviar Mensagem</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+				<div class="col-xs-5 jumbotron text-left">
+					<strong>Horário de funcionamento da Secretaria:</strong><br><br>
+
+					Terça, quinta e sábado das 8h às 17h50<br>
+					Quarta e Sexta das 8h às 18h50<br>
+					Domingo das 8h às 15h50
 				</div>
-				<div class="row">
-					<div class="col-xs-6 form-group">
-						<label for="email">E-mail:</label>
-						<input type="text" name="email" id="email" class="form-control">
-					</div>
-				
-					<div class="col-xs-6 form-group">
-						<label for="telefone">Telefone:</label>
-						<input type="text" name="telefone" id="telefone" class="form-control">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12 form-group">
-						<label for="mensagem">Mensagem:</label>
-						<textarea name="mensagem" id="mensagem" cols="30" rows="10" class="form-control"></textarea>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12 form-group">
-						<button type="submit" class="btn btn-default pull-right">Enviar Mensagem</button>
-					</div>
-				</div>
-			</form>
+			</div>
 		</div>
 	</div>
 </div>
