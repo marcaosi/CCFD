@@ -59,7 +59,7 @@
 		$mensagem .= "<strong>Telefone:</strong> " . $_POST['telefone'] . "<br>";
 		$mensagem .= "<strong>Mensagem:</strong> <br>" . $_POST['mensagem'] . "<br>";
 
-		$to      = 'marcaosi2014@gmail.com';
+		$to      = 'secretaria@ccfd.com.br';
 		$subject = 'Contato do site';
 
 		$headers = 'From: secretaria@ccfd.com.br' . "\r\n" .
