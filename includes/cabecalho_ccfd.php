@@ -64,6 +64,7 @@
                             <li><a target="_blank" href="<?=$urlBase ?>docs/Estatuto.pdf">Estatuto</a></li>
                             <li><a href="<?=$urlBase ?>menu/historia.php">História</a></li>
                             <li><a target="_blank" href="<?=$urlBase ?>docs/CodigoDisciplinar.pdf">Código Disciplinar</a></li>
+                            <li><a target="_blank" href="<?=$urlBase ?>docs/regimentoInterno.pdf">Regimento Interno</a></li>
                             <li><a target="_blank" href="https://www.youtube.com/watch?v=Uebe--0qcPo">Vídeo Institucional</a></li>
                           </ul>
                         </li>
