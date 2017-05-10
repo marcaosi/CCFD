@@ -1,4 +1,4 @@
-<?php $urlBase = "http://localhost/CCFD/"; ?>
+<?php $urlBase = "/http://clubeccfd.azurewebsites.net/"; ?>
 <!-- Ola mUndo -->
 <!DOCTYPE html>
 <html lang="en">
