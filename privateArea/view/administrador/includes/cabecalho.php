@@ -6,6 +6,7 @@ include_once(dirname(__FILE__).'/../../../service/autorizacaoAdmService.php');
     <head>
         <title>CCFD - Clube De Campo Fernão Dias</title>
         <link rel="stylesheet" href="<?= $urlBase?>css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= $urlBase?>css/appDashboard.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.16/datatables.min.css"/>
         <meta charset="utf-8">
     </head>

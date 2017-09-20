@@ -2,6 +2,21 @@
 
 <div class="container-fluid">
     <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 text-right">
+            <a href="<?=$urlBase ?>privateArea/view/administrador/addUser.php" class="btn btn-primary btn-md">Cadastrar</a><br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 text-center">
+            <?php 
+                if(isset($_SESSION['msg_ccfd']) && !empty($_SESSION['msg_ccfd']['msg'])){
+                    echo "<p class='msg bg-".$_SESSION['msg_ccfd']['type']."'>".$_SESSION['msg_ccfd']['msg']."</p>";
+                    unset($_SESSION['msg_ccfd']);
+                }
+             ?>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
             <table id="table-user" class="table table-striped" cellspacing="0" width="100%">
                 <thead>
