@@ -1,3 +1,2 @@
 <?php
-
-echo 'ADM';
+include_once('../../service/autorizacaoAdmService.php');
