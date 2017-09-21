@@ -13,6 +13,7 @@ include_once('../../../includes/cabecalho_ccfd.php');
             <ul>
                 <li><a href="<?=$urlBase?>privateArea/view/associado/updPassword.php">Alterar Minha Senha</a></li>
                 <li><a href="<?=$urlBase?>privateArea/view/associado/updUser.php">Dados Cadastrais</a></li>
+                <li><a href="<?=$urlBase?>privateArea/view/associado/index.php">Opções Particulares</a></li>
             </ul>
         </div>
     </div>

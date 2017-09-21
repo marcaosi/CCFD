@@ -8,7 +8,7 @@ include_once('../../../includes/cabecalho_ccfd.php');
 <div class="container-fluid">
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
-            <h3 class="title-page-inside">Documentos Privados</h3><br>
+            <h3 class="title-page-inside">Opções Particulares</h3><br>
 
             <ul>
                 <li><a href="">Documento 1</a></li>

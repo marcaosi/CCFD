@@ -12,7 +12,7 @@ $result = mysqli_query($link, $query);
 $line = mysqli_fetch_assoc($result);
 
 if(mysqli_num_rows($result) == 1){
-    $_SESSION['user_ccfd'] = array('user'=>$inscricao, 'pwd'=>$senha, 'tipo'=>$line['tipo']);
+    $_SESSION['user_ccfd'] = array('user'=>$inscricao, 'pwd'=>$senha, 'tipo'=>$line['tipo'], 'id' => $line['id']);
     $_SESSION['msg_ccfd'] = array('msg'=>'Login Efetuado Com Sucesso.','type'=>'success');
 
     if($line['tipo'] == 'administrador'){

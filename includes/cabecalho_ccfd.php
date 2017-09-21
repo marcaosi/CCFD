@@ -27,6 +27,7 @@
     <!-- Bootstrap -->
     <link href="<?=$urlBase ?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=$urlBase ?>css/app.css" rel="stylesheet">
+    <link href="<?=$urlBase ?>css/appDashboard.css" rel="stylesheet">
 	<link href="<?=$urlBase ?>css/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
