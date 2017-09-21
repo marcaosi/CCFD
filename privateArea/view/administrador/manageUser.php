@@ -42,7 +42,6 @@
                                 <td><?=$line['nome'] ?></td>
                                 <td><?=$line['inscricao'] ?></td>
                                 <td>
-                                    <a href="#" id="btn-modal-info" class="btn btn-primary"><span class="glyphicon glyphicon-eye-open"></span></a>
                                     <a href="<?=$urlBase?>privateArea/view/administrador/updUser.php?id=<?=$line['id']?>" class="btn btn-warning"><span class="glyphicon glyphicon-pencil"></span></a>
                                     <a href="<?=$urlBase?>privateArea/service/usuarioDeleteService.php?id=<?=$line['id']?>" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></a>
                                 </td>
