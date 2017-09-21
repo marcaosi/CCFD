@@ -1,6 +1,5 @@
 <?php
 include_once(dirname(__FILE__).'/../utils/Constraints.php');
-session_start();
 $auth = false;
 
 if(isset($_SESSION['user_ccfd'])){

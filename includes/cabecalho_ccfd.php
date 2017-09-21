@@ -1,4 +1,18 @@
-<?php $urlBase = "http://localhost/CCFD/"; ?>
+<?php include_once(dirname(__FILE__)."/../privateArea/utils/Constraints.php"); ?>
+
+<?php 
+  // session_start();
+  function islogado(){
+    $logado = false;
+
+      if(isset($_SESSION['user_ccfd']) && !empty($_SESSION['user_ccfd']['user']) && !empty($_SESSION['user_ccfd']['pwd'])){
+        $logado = true;
+      }
+
+    return $logado;
+  }
+ ?>
+
 <!-- Ola mUndo -->
 <!DOCTYPE html>
 <html lang="en">
@@ -27,7 +41,19 @@
     		<div class="col-xs-12 text-right">
 				<small>Siga-nos nas redes sociais</small>
 				<a target="_blank" class="link-social" href="http://www.facebook.com/fernaodiasoficial"><i class="fa fa-facebook-square fa-lg"></i></a>
-				<a target="_blank" class="link-social" href="http://www.youtube.com/channel/UCBt2itgUDsuR7AdwsbfCBjQ"><i class="fa fa-youtube-square fa-lg"></i></a>
+        <a target="_blank" class="link-social" href="http://www.youtube.com/channel/UCBt2itgUDsuR7AdwsbfCBjQ"><i class="fa fa-youtube-square fa-lg"></i></a>
+        <?php 
+          if(islogado()){
+            if($_SESSION['user_ccfd']['tipo'] == 'associado'){
+              echo "<a href='".$urlBase."privateArea/view/associado/myAcc.php'>Minha Conta</a>, ";
+              echo "<a href='".$urlBase."privateArea/service/logoutService.php'>Sair</a>";
+            }else if($_SESSION['user_ccfd']['tipo'] == 'administrador'){
+              echo "<a href='".$urlBase."privateArea/view/administrador/index.php'>Minha Conta</a>";
+            }
+          }else{
+            echo "<a href='".$urlBase."privateArea/view/login.php'>Entrar</a>";
+          }
+         ?>
     		</div>
     	</div>
     </div>

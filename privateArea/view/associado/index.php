@@ -21,6 +21,6 @@ include_once('../../../includes/cabecalho_ccfd.php');
 
 <?php
 
-echo "<br><br><br><br><br><Br><br><Br><Br><Br><br><br><br><br>";        
+echo "<br><br><br><br><br><Br><br><br>";        
 
 include_once('../../../includes/rodape_ccfd.php');

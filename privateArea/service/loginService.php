@@ -1,6 +1,5 @@
 <?php
 include_once('../utils/Constraints.php');
-session_start();
 
 $link = mysqli_connect($server_db, $server_user, $server_psswd, $name_db);
 

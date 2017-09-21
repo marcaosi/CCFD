@@ -1,6 +1,5 @@
 <?php 
     include_once('../utils/Constraints.php'); 
-    session_start();
 ?>
 <html>
     <head>

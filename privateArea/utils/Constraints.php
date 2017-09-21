@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $server_db = 'localhost';
 $name_db = 'ccfd_db';
 $server_user = 'root';
