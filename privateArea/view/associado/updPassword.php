@@ -34,7 +34,7 @@ include_once('../../../includes/cabecalho_ccfd.php');
                         <input type="password" name="inputSenhaReType" id="inputSenhaReType" class="form-control">
                     </div>
                     <div class="form-group text-right">
-                        <a href="" class="btn btn-danger">Cancelar</a>
+                        <a href="<?=$urlBase ?>privateArea/view/associado/myAcc.php" class="btn btn-danger">Cancelar</a>
                         <button type="submit" class="btn btn-success">Salvar</button>
                     </div>
                 </form>

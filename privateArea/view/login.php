@@ -15,6 +15,7 @@
                     <?php
                         if(isset($_SESSION['msg_ccfd']) && !empty($_SESSION['msg_ccfd']['msg'])){
                             echo "<p class='text-".$_SESSION['msg_ccfd']['type']."'>".$_SESSION['msg_ccfd']['msg']."</p>";
+                            unset($_SESSION['msg_ccfd']);
                         }
                      ?>
                     <div class="row">
@@ -25,7 +26,7 @@
                                     <input type="text" class="form-control" id="inputInscricao" name="inputInscricao">
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputSenha">Senha:</label>
+                                    <label for="inputSenha">Senha: <small>(Caso seja seu primeiro acesso, utilize seu CPF)</small></label>
                                     <input type="password" class="form-control" id="inputSenha" name="inputSenha">
                                 </div>
                                 <div class="text-right">

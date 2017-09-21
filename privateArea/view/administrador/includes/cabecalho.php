@@ -32,6 +32,7 @@ include_once(dirname(__FILE__).'/../../../service/autorizacaoAdmService.php');
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li><a href="<?=$urlBase ?>privateArea/view/administrador/manageUser.php">Associados</a></li>
+                                <!-- <li><a href="<?=$urlBase ?>privateArea/view/administrador/manageUser.php">Alterar Senha</a></li> -->
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="<?= $urlBase ?>privateArea/service/logoutService.php">Sair</a></li>

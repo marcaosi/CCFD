@@ -57,7 +57,7 @@ include_once('../../../includes/cabecalho_ccfd.php');
                     <input type="text" class="form-control" id="inputInscricao" readonly name="inputInscricao" value="<?=$line['inscricao']?>">
                 </div>
                 <div class="form-group text-right">
-                    <a href="<?=$urlBase ?>privateArea/view/administrador/manageUser.php" class="btn btn-danger">Cancelar</a>
+                    <a href="<?=$urlBase ?>privateArea/view/associado/myAcc.php" class="btn btn-danger">Cancelar</a>
                     <button type="submit" class="btn btn-success">Salvar</button>
                 </div>
             </form>
