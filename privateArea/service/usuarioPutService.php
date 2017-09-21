@@ -1,6 +1,5 @@
 <?php
 include_once(dirname(__FILE__).'/../utils/Constraints.php');
-session_start();
 
 $link = mysqli_connect($server_db, $server_user, $server_psswd, $name_db);
 
@@ -15,7 +14,12 @@ $inscricao = addslashes($input['inputInscricao']);
 $tipo = addslashes($input['inputTipo']);
 $senha = md5($input['inputCPF']);
 $isvalid = true;
-$url = $urlBase."privateArea/view/administrador/manageUser.php";
+if($_SESSION['user_ccfd']['tipo'] == 'administrador'){
+    $url = $urlBase."privateArea/view/administrador/manageUser.php";
+}else{
+    $url = $urlBase."privateArea/view/associado/myAcc.php";
+}
+
 
 if(!isset($nome) || empty($nome)){
     $_SESSION['msg_ccfd'] = array('msg' => 'Campo Nome Obrigatório.', 'type' => 'danger');
@@ -44,11 +48,19 @@ if($isvalid){
         // echo "Salvo Com Sucesso.";
     }else{
         $_SESSION['msg_ccfd'] = array('msg' => 'Impossível Atualizar Registro. Tente Novamente Mais Tarde.', 'type' => 'danger');
-        $url = $urlBase."privateArea/view/administrador/addUser.php";
+        if($_SESSION['user_ccfd']['tipo'] == 'administrador'){
+            $url = $urlBase."privateArea/view/administrador/addUser.php";
+        }else{
+            $url = $urlBase."privateArea/view/associado/myAcc.php";
+        }
         // echo "Impossível Salvar Registro.";
     }
 }else{
-    $url = $urlBase."privateArea/view/administrador/addUser.php";
+    if($_SESSION['user_ccfd']['tipo'] == 'administrador'){
+        $url = $urlBase."privateArea/view/administrador/addUser.php";
+    }else{
+        $url = $urlBase."privateArea/view/associado/myAcc.php";
+    }
 }
 
 header("location:$url");
